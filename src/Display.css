@@ -1,0 +1,31 @@
+.Display {
+  display: flex;
+  align-items: flex-end;
+}
+
+.Display__controls {
+  display: flex;
+  width: 100%;
+}
+
+.Display__controls__play {
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+}
+
+.Display__controls__playbar {
+  flex-grow: 10;
+  height: 44px;
+  width: 100%;
+  background: #FAA928;
+  opacity: .3;
+}
+
+.Display__controls__volume {
+  height: 44px;
+  width: 44px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
